@@ -1,0 +1,594 @@
+body{
+    margin: 0px;
+    background: #0F0F0C;
+    
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    z-index: 99;
+}
+.menu{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1920px;
+    height: minmax(80px, auto);
+    z-index: 99;
+}
+
+.logo{
+    
+    width: 286px;
+    height: 37px;
+    margin: 21px 0px 21px 16px;
+
+}
+
+.kinetika_logo{
+    display: inline;
+
+    margin: 0px;
+    color: #FFFFFF;
+    font-family: Kinetica;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 34.68px;
+    text-align: left;
+
+}
+
+.inter_logo{
+    display: inline;
+
+    margin: 0px;
+    color: #FFFFFF52;
+    font-family: Kinetica;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 36.5px;
+    text-align: left;
+
+}
+
+.btns{
+    display: flex;
+    width: 1592px;
+    height: 48px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.list_items_buttons{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.list_item_button{
+    margin-right: 8px;
+}
+
+.referal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: minmax(125px, auto);
+    height: 45px;
+    padding: 12px 20px 12px 20px;
+    gap: 4px;
+    border-radius: 8px;
+    border: 1px;
+    opacity: 0px;
+    background: linear-gradient(185.36deg, #BDFF00 0%, #EDFF7B 100%);
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;  
+}
+
+.wallet{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 202px;
+    height: 48px;
+    padding: 8px 4px 8px 12px;
+    gap: 12px;
+    border-radius: 14px;
+    border: 1px;
+    opacity: 0px;
+    background-color: rgba(15, 15, 12, 1);
+    border: 1px solid #FFFFFF29;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.theme{
+    display: flex;
+    width: Hug (79px)px;
+    height: Fill (48px)px;
+    padding: 8px 12px 8px 12px;
+    gap: 4px;
+    border-radius: 14px;
+    border: 1px ;
+    opacity: 0px;
+    background-color: rgba(15, 15, 12, 1);
+    border: 1px solid #FFFFFF29;
+}
+
+.question{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 8px 12px 8px 12px;
+    gap: 4px;
+    border-radius: 14px;
+    border: 1px;
+    opacity: 0px;
+    background-color: rgba(15, 15, 12, 1);
+    border: 1px solid #FFFFFF29;
+}
+
+.FAQ{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 84px;
+    height: 48px;
+    padding: 8px 12px 8px 12px;
+    gap: 4px;
+    border-radius: 14px;
+    border: 1px;
+    opacity: 0px;
+    background-color: rgba(15, 15, 12, 1);
+    border: 1px solid #FFFFFF29;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: left;
+    color: #FFFFFFA3;
+}
+
+.Language{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 48px;
+    padding: 8px 12px 8px 12px;
+    gap: 4px;
+    border-radius: 14px;
+    border: 1px;
+    opacity: 0px;
+    background-color: rgba(15, 15, 12, 1);
+    border: 1px solid #FFFFFF29;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: left;
+    color: #FFFFFFA3;
+
+}
+
+.bg{
+    width: 1920px;
+    height: 3158px;
+    top: 80px;
+    z-index: -99;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 1440px;
+    height: 876px;
+    z-index: 1;
+}
+
+.back_to_kurs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 185px;
+    height: 24px;
+    gap: 10px;
+
+    margin: 144px 0px 0px 0px;
+}
+
+h3{
+    margin: 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.Web3{
+    margin: 16px 0px 0px 0px;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 87.14px;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(135deg, #2870DD 0%, #AA54B7 100%);;
+}
+
+.title{
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 87.14px;
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+.subtitle{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    margin-top: 24px;
+    color: #FFFFFFA3;
+}
+
+.h4{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    margin: 32px 0px 0px 0px;
+    color: #FFFFFFA3;
+}
+
+.list_items{
+    margin: 8px 0px 0px 0px;
+    padding: 0px;
+    width: 758px;
+    height: 93px;
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_list{
+    width: 42px;
+    height: 42px;
+    margin-left: auto;
+}
+
+.list_item_txt{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.list_item{
+    padding: 0px;
+    width: 169px;
+    height: 66px;
+    padding: 12px;
+    gap: 10px;
+    border-radius: 12px;
+    background: #FFFFFF0A;
+    
+
+
+}
+
+.main_background{
+    z-index: -99;
+    margin: -30px 0px 0px 896px;
+    width: 1024px;
+    height: 767px;
+}
+
+.about_kurs{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 32px;
+    width: 505px;
+    height: 71px;
+    padding: 12px 24px 12px 24px;
+    gap: 10px;
+    border-radius: 16px;
+    background: #FFFFFF0A;
+    color: #FFFFFF;
+
+}
+
+.about_kurs_item{
+    padding: 0px;
+    margin: auto;
+}
+
+.about_kurs_hr47{
+    width: 0px;
+    height: 47px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #FFFFFF14;
+
+}
+
+.about_kurs_item_fs16{
+    margin: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    color: #FFFFFF7A;
+
+}
+
+.about_kurs_item_fs20{
+    margin: 8px 0px 0px 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left;
+}
+
+.buy_social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    width: 758px;
+    height: 48px;
+    gap: 24px;
+
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.button_buy{
+    width: 186px;
+    height: 48px;
+    padding: 12px 32px 12px 32px;
+    gap: 10px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: linear-gradient(135deg, #2870DD 0%, #AA54B7 100%);
+    text-align: center;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    color: #FFFFFF;
+
+}
+
+.after_buttont_hr{
+    margin: 0px;
+    width: 0px;
+    height: 48px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #FFFFFF14;
+
+}
+
+.menu__link{
+    justify-content: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    text-align: center;
+    color: #FFFFFF7A;
+
+}
+
+.about{
+    width: 1440px;
+    height: 422px;
+
+}
+
+.title4{
+    
+    padding-top: 64px;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 87.14px;
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+.learn_li{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 42px;
+    width: 1440px;
+    height: 158px;
+    gap: 42px;
+
+}
+
+.learn_item_fs42{
+    margin: 0px 0px 10px 0px ;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50.83px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.gradient{
+    margin: 0 auto;
+     color: transparent;    
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(135deg, #2870DD 0%, #AA54B7 100%);
+
+}
+
+.learn_hr{
+    margin: 0px;
+    width: 124px;
+    height: 4px;
+    border: 1px solid;
+    background: linear-gradient(90deg, #3A1862 0%, #4C04CB 50%, #9C4AB0 100%);
+
+}
+
+.learn_item_fs24{
+    padding-bottom: 64px;
+    margin: 10px 0px 0px 0px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-align: left;
+    color: #FFFFFFA3;
+
+}
+
+.progress{
+    width: 1440px;
+    height: 697px;
+    padding: 64px 0px 64px 0px;
+}
+
+.title8{
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 87.14px;
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+.progress_grid_container{
+    width: 1440px;
+    height: 440px;
+    margin-top: 42px;
+    display: grid;
+    grid-template-columns: repeat(5, 275px);
+    grid-template-rows: repeat(3, 136px);
+    row-gap: 16px;
+    column-gap: 16px;
+    text-align: center;
+    align-items: center;
+}
+
+.progress_grid_elem{
+    width: 275.2px;
+    height: 136px;
+    gap: 32px;
+    border-radius: 24px ;
+    opacity: 0px;
+    background: #161613;
+
+}
+
+.grid_elem_fs20{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    color: #FFFFFF;
+    text-align: left;
+    align-items: center;
+    margin-left: 32px;
+}
+
+.program_kurs{
+    width: 1440px;
+    height: 1314px;
+}
+
+.title12{
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 87.14px;
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+.program_list{
+    display: flex;
+    width: 1440px;
+    height: 80px;
+    padding: 20px 0px 0px 0px;
+    gap: 0px;
+    border-radius: 24px 0px 0px 0px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.program_item{
+    width: 213px;
+    height: 29px;
+}
+
+.program_item_txt{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.program_item_gradient{
+    color: transparent;    
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(135deg, #2870DD 0%, #AA54B7 100%);
+}
+
+.plus{
+    width: 40px;
+    height: 40px;
+    padding: 8px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 12px 0px 0px 0px;
+
+}
