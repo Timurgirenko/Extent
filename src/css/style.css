@@ -191,11 +191,14 @@ body{
 
 }
 
-.bg{
-    width: 1920px;
-    height: 3158px;
+.bg_main
+{
+    width: 1,440px;
+    height: 797px;
+    
     top: 80px;
-    z-index: -99;
+    background: url(../bg/Group\ 1.png) right no-repeat;
+    background-position: left 896px top -150px ;
     
 }
 
@@ -205,7 +208,7 @@ body{
     align-items: flex-start;
     width: 1440px;
     height: 876px;
-    z-index: 1;
+
 }
 
 .back_to_kurs{
@@ -279,7 +282,8 @@ h3{
     list-style: none;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    flex-flow:row nowrap;
+align-items:center;
 }
 
 .img_list{
@@ -537,7 +541,7 @@ h3{
 
 .program_kurs{
     width: 1440px;
-    height: 1314px;
+    height: 913px;
 }
 
 .title12{
@@ -593,12 +597,13 @@ h3{
     padding: 8px ;
     gap: 10px;
     border-radius: 12px;
+    border: 0px;
     background: #FFFFFF0A;
     
 }
 
 .plus{
-    margin: 0px;
+    margin: 2px;
     font-family: Inter-light;
     font-size: 36px;
     font-weight: 100;
@@ -606,6 +611,113 @@ h3{
     text-align: left;
     color: #FFFFFF;
     width: 18px;
+}
+
+.of_course{
+    width: 1440px;
+    height: 231px;
+    margin: 32px 0px 0px 0px;
+    gap: 32px;
+    border-radius: 32px;
+    opacity: 0px;
+    background: #FFFFFF0A url(../bg/pyton_black.png) right no-repeat;
+
+     
+    z-index: 99;
+/*     background-image: url(../bg/pyton_black.png) right no-repeat; */
 
 
+}
+
+
+
+.spna_web3_gradient{
+    margin-right: 24px;
+    color: transparent;    
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(135deg, #2870DD 0%, #AA54B7 100%);
+}
+
+.title16{
+    margin: 0px;
+    padding: 32px 0px 0px 32px;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 87.14px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.price{
+    display: grid;
+    grid-template-columns: 457px 186px;
+    width: 1376px;
+    height: 48px;
+    justify-content: space-between;
+    padding-top: 32px;
+    margin-left: 32px;
+}
+
+.about_course{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width: 457px;
+    height: 47px;
+    gap: 10px;
+    color: #FFFFFF;
+
+}
+
+.about_course_item{
+    padding: 0px;
+    margin: auto;
+}
+
+.about_course_hr47{
+    width: 0px;
+    height: 47px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #FFFFFF14;
+
+}
+
+.about_course_item_fs16{
+    margin: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    color: #FFFFFF7A;
+
+}
+
+.about_course_item_fs20{
+    margin: 4px 0px 0px 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left;    
+}
+
+.buy_button{    
+    width: 186px;
+    height: 48px;
+    padding: 12px 32px 12px 32px;
+    gap: 10px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: linear-gradient(135deg, #2870DD 0%, #AA54B7 100%);
+    text-align: center;
+    
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    color: #FFFFFF;
 }
