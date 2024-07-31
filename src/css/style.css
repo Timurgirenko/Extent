@@ -546,28 +546,29 @@ h3{
     font-weight: 600;
     line-height: 87.14px;
     margin: 0px;
+    padding-bottom: 42px;
     color: #FFFFFF;
 }
 
 .program_list{
     display: flex;
-    width: 1440px;
+    width: 1400px;
     height: 80px;
-    padding: 20px 0px 0px 0px;
+    margin-bottom: 8px;
+    padding: 0px 20px ;
     gap: 0px;
-    border-radius: 24px 0px 0px 0px;
+    border-radius: 24px;
     justify-content: space-between;
     align-items: center;
+    background: #161613;
 
 
-}
-
-.program_item{
-    width: 213px;
-    height: 29px;
 }
 
 .program_item_txt{
+    width: 213px;
+    height: 29px;
+    margin: 0px;
     font-family: Inter;
     font-size: 24px;
     font-weight: 600;
@@ -578,17 +579,33 @@ h3{
 }
 
 .program_item_gradient{
+    margin-right: 12px;
     color: transparent;    
     -webkit-background-clip: text;
     background-clip: text;
     background-image: linear-gradient(135deg, #2870DD 0%, #AA54B7 100%);
 }
 
-.plus{
+.button_plus{
+    display: inline-block;
     width: 40px;
     height: 40px;
-    padding: 8px 0px 0px 0px;
+    padding: 8px ;
     gap: 10px;
-    border-radius: 12px 0px 0px 0px;
+    border-radius: 12px;
+    background: #FFFFFF0A;
+    
+}
+
+.plus{
+    margin: 0px;
+    font-family: Inter-light;
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 18px;
+
 
 }
